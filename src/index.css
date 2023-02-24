@@ -1,0 +1,50 @@
+:root {
+    --color-background: #f5f5fa;
+
+    --color-button-buy: #5f9ea0;
+    --color-search-background: #5f9ea0;
+    --color-primary-background: #5f9ea0;
+    --color-footer-background: #5f9ea0;
+    --color-line-background: #4682b4;
+
+    --color-hover-background: #feefdd;
+    --color-hover: #a2c5e8;
+
+    --color-scrolltotop: #05525e;
+    --color-text-active: #00ff00;
+    --color-white: #fff;
+    --color-ededed: #ededed;
+    --color-box-shadow: #0000001a;
+
+    /* //default layout */
+    --search-heigh: 40px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    /* // font-family: 'Odibee Sans', cursive; */
+    overflow-y: overlay;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
